@@ -3,7 +3,6 @@ autoUpdate:
   schedule: 0 0 * * *
 bootConfigURL: https://github.com/macox-org/environment-jx-aps-mac-dev
 cluster:
-  azure: {}
   clusterName: jx-aps-mac
   environmentGitOwner: macox-org
   environmentGitPublic: true
@@ -81,6 +80,6 @@ vault:
   serviceAccount: jx-aps-mac-vt
 velero: {}
 versionStream:
-  ref: v0.0.8
+  ref: v0.0.17
   url: https://github.com/cloudbees/arcalos-jenkins-x-versions.git
 webhook: prow
