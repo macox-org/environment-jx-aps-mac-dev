@@ -1,0 +1,14 @@
+adminUser:
+  password: vault:jx-aps-mac/adminUser:password
+  username: admin
+dashboardAuthID: vault:jx-aps-mac:dashboardAuthID
+dashboardAuthOrg: arcalos-dashboard
+dashboardAuthSecret: vault:jx-aps-mac:dashboardAuthSecret
+dashboardGrpchost: dex.jx
+enableDocker: false
+pipelineUser:
+  email: 53788998+macox-bot@users.noreply.github.com
+  token: vault:jx-aps-mac/pipelineUser:token
+  username: macox-bot
+prow:
+  hmacToken: vault:jx-aps-mac/prow:hmacToken
