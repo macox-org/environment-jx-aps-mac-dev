@@ -1,6 +1,7 @@
 autoUpdate:
   enabled: true
   schedule: 0 0 * * *
+bootConfigURL: https://github.com/macox-org/environment-jx-aps-mac-dev
 cluster:
   azure: {}
   clusterName: jx-aps-mac
