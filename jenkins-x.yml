@@ -241,7 +241,7 @@ pipelineConfig:
           - args:
             - diagnose
             - --show
-            - health            
+            - health
             command: jx
             dir: /workspace/source/env
             name: verify-health
