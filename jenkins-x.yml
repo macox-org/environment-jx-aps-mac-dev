@@ -238,7 +238,7 @@ pipelineConfig:
             command: jx
             dir: /workspace/source/env
             name: replicate-secrets
-            - args:
+          - args:
             - diagnose
             - --show
             - health            
