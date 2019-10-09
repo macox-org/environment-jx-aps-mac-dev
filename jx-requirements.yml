@@ -1,7 +1,8 @@
 autoUpdate:
   enabled: true
   schedule: 0 0 * * *
-cluster:  
+bootConfigURL: https://github.com/macox-org/environment-jx-aps-mac-dev
+cluster:
   clusterName: jx-aps-mac
   environmentGitOwner: macox-org
   environmentGitPublic: true
