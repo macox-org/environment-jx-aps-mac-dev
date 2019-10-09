@@ -1,8 +1,7 @@
 autoUpdate:
   enabled: true
   schedule: 0 0 * * *
-cluster:
-  azure: {}
+cluster:  
   clusterName: jx-aps-mac
   environmentGitOwner: macox-org
   environmentGitPublic: true
